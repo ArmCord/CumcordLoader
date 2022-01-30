@@ -4,7 +4,7 @@ function sleep (time) {
 sleep(5000).then(() => {
 
 const load = async () => {
-	 console.log('[FlickerLoader] Injecting...');
+	 console.log('[CumcordLoader] Injecting...');
 	const response = await fetch("https://raw.githubusercontent.com/Cumcord/Cumcord/stable/dist/build.js");
 	const text = await response.text()
 	eval(text);
